@@ -83,6 +83,7 @@
 		A70D75011743C90A00E6E626 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70D74FE1743C90A00E6E626 /* TableViewController.m */; };
 		A70ED6B517F98135008A801A /* NSStringDTPathsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A70ED6B417F98135008A801A /* NSStringDTPathsTest.m */; };
 		A710A50B160755A500437D36 /* NSDictionary+DTError.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D0AA24153C1B160020F18B /* NSDictionary+DTError.m */; };
+		A71C2BC3184676BC00B77DB4 /* DTFlushingTestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A71C2BC2184676BC00B77DB4 /* DTFlushingTestLog.m */; };
 		A72121F5173C001B003C6F0A /* DTReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A72121D5173BFF89003C6F0A /* DTReachability.m */; };
 		A72121F6173C001B003C6F0A /* DTReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A72121D5173BFF89003C6F0A /* DTReachability.m */; };
 		A7239FFB16A6CEEF0071E902 /* libDTHTMLParser_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E383C2160DFEDB00CF72D6 /* libDTHTMLParser_iOS.a */; };
@@ -557,6 +558,8 @@
 		A70ED6B317F98135008A801A /* NSStringDTPathsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringDTPathsTest.h; sourceTree = "<group>"; };
 		A70ED6B417F98135008A801A /* NSStringDTPathsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringDTPathsTest.m; sourceTree = "<group>"; };
 		A710A5001607556000437D36 /* libDTFoundation_Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDTFoundation_Mac.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71C2BC1184676BC00B77DB4 /* DTFlushingTestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTFlushingTestLog.h; sourceTree = "<group>"; };
+		A71C2BC2184676BC00B77DB4 /* DTFlushingTestLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTFlushingTestLog.m; sourceTree = "<group>"; };
 		A72121D4173BFF89003C6F0A /* DTReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTReachability.h; sourceTree = "<group>"; };
 		A72121D5173BFF89003C6F0A /* DTReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTReachability.m; sourceTree = "<group>"; };
 		A72121DA173BFFB1003C6F0A /* libDTReachability_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDTReachability_iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1433,6 +1436,8 @@
 				A77D5C0116E4B1D300A45C28 /* DTBase64CodingTest.m */,
 				A70ED6B317F98135008A801A /* NSStringDTPathsTest.h */,
 				A70ED6B417F98135008A801A /* NSStringDTPathsTest.m */,
+				A71C2BC1184676BC00B77DB4 /* DTFlushingTestLog.h */,
+				A71C2BC2184676BC00B77DB4 /* DTFlushingTestLog.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2454,6 +2459,7 @@
 			files = (
 				A7D60FEC15D3B16900AEDD1B /* DTVersionTest.m in Sources */,
 				A7D60FEF15D3B18A00AEDD1B /* DTHTMLParserTest.m in Sources */,
+				A71C2BC3184676BC00B77DB4 /* DTFlushingTestLog.m in Sources */,
 				FAB17249162FFA6800B44EDC /* NSArrayDTErrorTest.m in Sources */,
 				FAB172AF163027C700B44EDC /* NSDictionaryDTErrorTest.m in Sources */,
 				A70D56A6162FDECF00120A98 /* DTScriptingTest.m in Sources */,
